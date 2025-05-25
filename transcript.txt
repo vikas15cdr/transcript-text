@@ -1,0 +1,242 @@
+[00:00 - 00:10]  Hello everyone, this is Atul from Adureka and welcome to today's topic of discussion on AI
+[00:10 - 00:12]  vs Machine Learning vs Deep Learning.
+[00:12 - 00:17]  These are the terms which have confused a lot of people and if you two are one among them,
+[00:17 - 00:19]  let me resolve it for you.
+[00:19 - 00:24]  Well artificial intelligence is a broader umbrella under which machine learning and deep learning
+[00:24 - 00:25]  come.
+[00:25 - 00:30]  You also seen the diagram that even deep learning is a subset of machine learning.
+[00:30 - 00:34]  So you can say that all three of them, the AI, the machine learning and deep learning
+[00:34 - 00:37]  are just the subset of each other.
+[00:37 - 00:41]  So let's move on and understand how exactly they differ from each other.
+[00:41 - 00:44]  So let's start with artificial intelligence.
+[00:44 - 00:48]  The term artificial intelligence was first coined in the year 1956.
+[00:48 - 00:53]  The concept is pretty old but it has gained its popularity recently.
+[00:53 - 00:54]  But why?
+[00:54 - 00:58]  Well, the reason is earlier we had very small amount of data.
+[00:58 - 01:02]  The data we had was not enough to predict the accurate result.
+[01:02 - 01:06]  But now there's a tremendous increase in the amount of data.
+[01:06 - 01:13]  Statistics suggest that by 2020 the accumulated volume of data will increase from 4.4 zitabytes
+[01:13 - 01:18]  to roughly around 44 zitabytes or 44 trillion GB of data.
+[01:18 - 01:23]  Along with such enormous amount of data, now we have more advanced algorithm.
+[01:23 - 01:28]  And high in computing power and storage that can deal with such large amount of data.
+[01:28 - 01:35]  As a result, it is expected that 70% of enterprise will implement AI over the next 12 months,
+[01:35 - 01:40]  which is up from 40% in 2016 and 51% in 2017.
+[01:40 - 01:43]  Just for your understanding, what is AI?
+[01:43 - 01:48]  Well, it's nothing but a technique that enables the machine to act like humans by replicating
+[01:48 - 01:50]  the behavior and nature.
+[01:50 - 01:54]  With AI, it is possible for machines to learn from the experience.
+[01:54 - 02:00]  The machines adjust their responses based on new input thereby performing human-like tasks.
+[02:00 - 02:04]  Artificial intelligence can be trained to accomplish specific tasks by processing large amount
+[02:04 - 02:07]  of data and recognizing pattern in them.
+[02:07 - 02:12]  You can consider that building an artificial intelligence is like building a church.
+[02:12 - 02:17]  The first church took generations to finish, so most of the workers who were working in
+[02:17 - 02:19]  it never saw the final outcome.
+[02:19 - 02:23]  Those working on it took pride in their craft, building bricks and chiseling stone that
+[02:23 - 02:26]  was going to be placed into the great structure.
+[02:26 - 02:32]  So as AI researchers, we should think of ourselves as humble brick makers whose job is to study
+[02:32 - 02:37]  how to build components, example parts, planners or learning algorithm or etc.
+[02:37 - 02:42]  Anything that someday someone and somewhere will integrate into the intelligence systems.
+[02:42 - 02:48]  Some of the examples of artificial intelligence from our day-to-day life are Apple series,
+[02:48 - 02:52]  display and computer, Tesla's cell driving car and many more.
+[02:52 - 02:55]  These examples are based on deep learning and natural language processing.
+[02:55 - 03:00]  Well, this was about what is AI and how it gains its hype.
+[03:00 - 03:05]  So moving on ahead, let's discuss about machine learning and see what it is and why it was
+[03:05 - 03:06]  when introduced.
+[03:06 - 03:11]  Well, machine learning came into existence in the late 80s and the early 90s.
+[03:11 - 03:15]  But what were the issues with the people which made the machine learning come into existence?
+[03:15 - 03:17]  Let us discuss them one by one.
+[03:17 - 03:23]  In the field of statistics, the problem was how to efficiently train large complex model.
+[03:23 - 03:27]  In the field of computer science and artificial intelligence, the problem was how to train
+[03:27 - 03:30]  more robust version of AI system.
+[03:30 - 03:34]  While in the case of neuroscience, problem faced by the researchers was how to design
+[03:34 - 03:36]  operational model of the brain.
+[03:36 - 03:40]  So these were some of the issues which had the largest influence and led to the existence
+[03:40 - 03:41]  of the machine learning.
+[03:41 - 03:45]  Now this machine learning shifted its focus from the symbolic approaches.
+[03:45 - 03:50]  It had inherited from the AI and moved towards the methods and model it had brought from
+[03:50 - 03:53]  statistics and probability theory.
+[03:53 - 03:56]  So let's proceed and see what exactly is machine learning.
+[03:56 - 04:01]  Well machine learning is a subset of AI which enables the computer to act and make data
+[04:01 - 04:04]  driven decisions to carry out a certain task.
+[04:04 - 04:09]  These programs or algorithms are designed in a way that they can learn and improve over
+[04:09 - 04:11]  time when exposed to new data.
+[04:11 - 04:13]  Let's see an example of machine learning.
+[04:13 - 04:17]  Let's say you want to create a system which tells the expected weight of a person based
+[04:17 - 04:18]  on its height.
+[04:18 - 04:21]  The first thing you do is you collect the data.
+[04:21 - 04:23]  Let's see this is how your data looks like.
+[04:23 - 04:27]  Now each point on the graph represent one data point.
+[04:27 - 04:31]  To start with we can draw a simple line to predict the weight based on the height.
+[04:31 - 04:37]  For example, a simple line w equal h minus 100 where w is weight in kgs and edges height
+[04:37 - 04:39]  in centimeter.
+[04:39 - 04:41]  This line can help us to make the prediction.
+[04:41 - 04:46]  Our main goal is to reduce the difference between the estimated value and the actual value.
+[04:46 - 04:50]  So in order to achieve it, we try to draw a straight line that fits through all these
+[04:50 - 04:53]  different points and minimize the error.
+[04:53 - 04:58]  So our main goal is to minimize the error and make them as small as possible.
+[04:58 - 05:02]  Decreasing the error or the difference between the actual value and estimated value increases
+[05:02 - 05:04]  the performance of the model.
+[05:04 - 05:08]  Further on, the more data points we collect, the better our model will become.
+[05:08 - 05:12]  We can also improve our model by adding more variables and creating different prediction
+[05:12 - 05:13]  lines for them.
+[05:13 - 05:18]  Once the line is created, so from the next time we feed a new data, for example, height
+[05:18 - 05:23]  of a person to the model, it would easily predict the data for you and it will tell you what
+[05:23 - 05:24]  his predicted weight could be.
+[05:24 - 05:27]  I hope you got a clear understanding of machine learning.
+[05:27 - 05:30]  So moving on ahead, let's learn about deep learning.
+[05:30 - 05:32]  Now what is deep learning?
+[05:32 - 05:36]  You can consider deep learning model as a rocket engine and its fuel is its huge amount
+[05:36 - 05:39]  of data that we feed to these algorithms.
+[05:39 - 05:44]  The concept of deep learning is not new, but recently it's hype has increased and deep
+[05:44 - 05:46]  learning is getting more attention.
+[05:46 - 05:50]  This field is a particular kind of machine learning that is inspired by the functionality
+[05:50 - 05:55]  of our brain cells called neuron, which led to the concept of artificial neural network.
+[05:55 - 06:00]  It simply takes the data connection between all the artificial neurons and adjust them
+[06:00 - 06:01]  according to the data pattern.
+[06:01 - 06:04]  More neurons are added at the size of the data is large.
+[06:04 - 06:10]  It automatically features learning at multiple levels of abstraction, thereby allowing a system
+[06:10 - 06:15]  to learn complex function mapping without depending on any specific algorithm.
+[06:15 - 06:16]  You know what?
+[06:16 - 06:21]  No one actually knows what happens inside a neural network and void works so well.
+[06:21 - 06:24]  So currently you can call it as a black box.
+[06:24 - 06:28]  Let us discuss some of the example of deep learning and understand it in a better way.
+[06:28 - 06:33]  Let me start with a simple example and explain you how things happen at a conceptual level.
+[06:33 - 06:38]  Let us try and understand how you recognize a square from other shapes.
+[06:38 - 06:42]  The first thing you do is you check whether they are four lines associated with a figure
+[06:42 - 06:45]  or not, simple concept rate.
+[06:45 - 06:48]  If yes, we further check if they are connected and closed.
+[06:48 - 06:54]  Again, if yes, we finally check whether it is perpendicular and all its sizes are equal.
+[06:54 - 06:55]  Correct?
+[06:55 - 06:57]  If everything fulfills, yes, it is a square.
+[06:57 - 07:01]  Well, it is nothing but a nested hierarchy of concepts.
+[07:01 - 07:06]  What we did here, we took a complex task of identifying a square in this case and
+[07:06 - 07:08]  broken into simpler task.
+[07:08 - 07:12]  Now this deep learning also does the same thing, but at a larger scale.
+[07:12 - 07:15]  Let us take an example of machine which recognizes the animal.
+[07:15 - 07:21]  The task of the machine is to recognize whether the given image is of a cat or of a dog.
+[07:21 - 07:25]  What if we were asked to resolve the same issue using the concept of machine learning?
+[07:25 - 07:26]  What we would do?
+[07:26 - 07:31]  First, we would define the features such as check whether the animal has viscars or not,
+[07:31 - 07:35]  or check if the animal has pointed ears or not or whether it's tail is straight or
+[07:35 - 07:36]  curved.
+[07:36 - 07:41]  In short, we will define the facial features and let the system identify which features are
+[07:41 - 07:44]  more important in classifying a particular animal.
+[07:44 - 07:48]  Now when it comes to deep learning, it takes this to one step ahead.
+[07:48 - 07:53]  Deep learning automatically finds out the feature which are most important for classification
+[07:53 - 07:58]  compared to machine learning where we had to manually give out that features.
+[07:58 - 08:02]  By now, I guess you have understood that AI is the bigger picture and machine learning
+[08:02 - 08:04]  and deep learning are its subpart.
+[08:04 - 08:08]  So let's move on and focus our discussion on machine learning and deep learning.
+[08:08 - 08:12]  The easiest way to understand the difference between the machine learning and deep learning
+[08:12 - 08:15]  is to know that deep learning is machine learning.
+[08:15 - 08:19]  More specifically, it is the next evolution of machine learning.
+[08:19 - 08:23]  Let's take a few important parameter and compare machine learning with deep learning.
+[08:23 - 08:25]  So starting with data dependencies.
+[08:25 - 08:29]  The most important difference between deep learning and machine learning is its performance
+[08:29 - 08:33]  as the volume of the data gets increased from the below graph.
+[08:33 - 08:37]  You can see that when the size of the data is small, deep learning algorithm doesn't perform
+[08:37 - 08:39]  that well, but why?
+[08:39 - 08:45]  Well, this is because deep learning algorithm needs a large amount of data to understand
+[08:45 - 08:50]  it perfectly on the other hand, the machine learning algorithm can easily work with smaller
+[08:50 - 08:52]  data set fine.
+[08:52 - 08:54]  Next comes the hardware dependencies.
+[08:54 - 08:59]  Deep learning algorithms are heavily dependent on high end machines, while the machine learning
+[08:59 - 09:02]  algorithm can work on low end machines as well.
+[09:02 - 09:07]  This is because the requirement of deep learning algorithm include GPUs, which is an integral
+[09:07 - 09:09]  part of its working.
+[09:09 - 09:13]  The deep learning algorithm requires GPUs as they do a large amount of matrix multiplication
+[09:13 - 09:20]  operations and these operations can only be efficiently optimized using a GPU as it is
+[09:20 - 09:22]  built for this purpose only.
+[09:22 - 09:25]  But third parameter will be feature engineering.
+[09:25 - 09:30]  Well, feature engineering is a process of putting the domain knowledge to reduce the complexity
+[09:30 - 09:35]  of the data and make patterns more visible to learning algorithms.
+[09:35 - 09:39]  This process is difficult and expensive in terms of time and expertise.
+[09:39 - 09:44]  In case of machine learning, most of the features are needed to be identified by an expert and
+[09:44 - 09:47]  then hand coded as per the domain and the data type.
+[09:47 - 09:53]  For example, the features can be a pixel value, shapes, texture, position, orientation or
+[09:53 - 09:54]  anything.
+[09:54 - 09:59]  Fine, the performance of most of the machine learning algorithm depends on how accurately
+[09:59 - 10:02]  the features are identified and extracted.
+[10:02 - 10:06]  Whereas in case of deep learning algorithms, it try to learn high level features from the
+[10:06 - 10:07]  data.
+[10:07 - 10:11]  This is a very distinctive part of deep learning, which makes it way ahead of traditional
+[10:11 - 10:13]  machine learning.
+[10:13 - 10:18]  Deep learning reduces the task of developing new feature extractor for every problem.
+[10:18 - 10:22]  Like in the case of CNN algorithm, it first try to learn the low level features of the
+[10:22 - 10:27]  image such as edges and lines and then it proceeds to the parts of faces of people and
+[10:27 - 10:30]  then finally to the high level representation of the face.
+[10:30 - 10:33]  I hope the things are getting clear to you.
+[10:33 - 10:36]  So let's move on ahead and see the next parameter.
+[10:36 - 10:39]  So our next parameter is problem solving approach.
+[10:39 - 10:43]  When we are solving a problem using traditional machine learning algorithm, it is generally
+[10:43 - 10:49]  recommended that we first break down the problem into different sub parts, solve them individually
+[10:49 - 10:52]  and then finally combine them to get the desired result.
+[10:52 - 10:56]  This is how the machine learning algorithm handles the problem.
+[10:56 - 11:00]  On the other hand, the deep learning algorithm solves the problem from end to end.
+[11:00 - 11:03]  Let's take an example to understand this.
+[11:03 - 11:07]  Suppose you have a task of multiple object detection and your task is to identify what
+[11:07 - 11:10]  is the object and where it is present in the image.
+[11:10 - 11:15]  So let's see and compare how will you tackle this issue using the concept of machine learning
+[11:15 - 11:17]  and deep learning.
+[11:17 - 11:21]  Starting with machine learning in a typical machine learning approach, you would first divide
+[11:21 - 11:23]  the problem into two steps.
+[11:23 - 11:27]  First object detection and then object reorganization.
+[11:27 - 11:32]  First of all, you would use a bounding box detection algorithm like grab kit for example
+[11:32 - 11:36]  to scan through the image and find out all the possible objects.
+[11:36 - 11:41]  Now once the objects are recognized, you would use object reorganization algorithm like SVM
+[11:41 - 11:45]  with hog to recognize relevant objects.
+[11:45 - 11:49]  Now finally when you combine the result, you would be able to identify what is the object
+[11:49 - 11:52]  and where it is present in the image.
+[11:52 - 11:57]  On the other hand, in deep learning approach, you would do the process from end to end.
+[11:57 - 12:01]  For example, in a Yolornet which is a type of deep learning algorithm, you would pass
+[12:01 - 12:06]  an image and it would give out the location along with the name of the object.
+[12:06 - 12:09]  Now let's move on to our fifth comparison parameter.
+[12:09 - 12:11]  It's execution time.
+[12:11 - 12:14]  Usually a deep learning algorithm takes a long time to train.
+[12:14 - 12:18]  This is because there are so many parameters in a deep learning algorithm that makes the
+[12:18 - 12:20]  training longer than usual.
+[12:20 - 12:24]  The training might have been last for two weeks or more than that if you are training completely
+[12:24 - 12:26]  from the scratch.
+[12:26 - 12:30]  Whereas in the case of machine learning, it relatively takes much less time to train,
+[12:30 - 12:33]  ranging from a few weeks to few hours.
+[12:33 - 12:38]  Now the execution time is completely reverse when it comes to the testing of data.
+[12:38 - 12:42]  During testing, the deep learning algorithm takes much less time to run.
+[12:42 - 12:46]  Whereas if you compare it with a KNN algorithm, which is a type of machine learning algorithm,
+[12:46 - 12:49]  the test time increases as a size of the data increase.
+[12:49 - 12:54]  Last but not the least, we have interpretability as a factor for comparison of machine learning
+[12:54 - 12:56]  and deep learning.
+[12:56 - 13:01]  This factor is the main reason why deep learning is still thought 10 times before anyone
+[13:01 - 13:03]  uses it in the industry.
+[13:03 - 13:05]  Let's take an example.
+[13:05 - 13:09]  Suppose we use deep learning to give automated scoring to essays.
+[13:09 - 13:14]  The performance it gives in scoring is quite excellent and is near to the human performance.
+[13:14 - 13:15]  But there's an issue with it.
+[13:15 - 13:18]  It does not reveal why it has given that score.
+[13:18 - 13:23]  Indeed, mathematically it is possible to find out that which node of a deep neural network
+[13:23 - 13:25]  were activated.
+[13:25 - 13:29]  But we don't know what the neurons were supposed to model and what these layers of neuron were
+[13:29 - 13:31]  doing collectively.
+[13:31 - 13:33]  So I failed to interpret the result.
+[13:33 - 13:38]  On the other hand, machine learning algorithm like decision tree gives us a crisp rule for
+[13:38 - 13:40]  void chose and what it chose.
+[13:40 - 13:43]  So it is particularly easy to interpret the reasoning behind it.
+[13:43 - 13:48]  Therefore, the algorithms like decision tree and linear or logistic regression are primarily
+[13:48 - 13:51]  used in industry for interpretability.
+[13:51 - 13:55]  Before we end this session, let me summarize things for you.
+[13:55 - 14:00]  Machine learning uses algorithm to parse the data, learn from the data and make informed
+[14:00 - 14:02]  decision based on what it has learned.
+[14:02 - 14:03]  Fine.
+[14:03 - 14:08]  Now this deep learning structures algorithms and layers to create artificial neural network
+[14:08 - 14:12]  that can learn and make intelligent decisions on their own.
+[14:12 - 14:18]  Finally, deep learning is a subfield of machine learning while both fall under the broad category
+[14:18 - 14:20]  of artificial intelligence.
+[14:20 - 14:24]  Deep learning is usually what's behind the most human like artificial intelligence.
+[14:24 - 14:27]  Well, this was all for today's discussion.
+[14:27 - 14:30]  In case you have any doubt, feel free to add your query to the comment section.
+[14:30 - 14:31]  Thank you.
+[14:31 - 14:34]  I hope you have enjoyed listening to this video.
+[14:34 - 14:40]  Please be kind enough to like it and you can comment any of your doubts and queries and
+[14:40 - 14:42]  we will reply them at the earliest.
+[14:42 - 14:47]  Do look out for more videos in our playlist and subscribe to Eddie Rika channel to learn
+[14:47 - 14:48]  more.
+[14:48 - 14:49]  Happy learning.

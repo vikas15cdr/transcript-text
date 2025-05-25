@@ -1,0 +1,35 @@
+################################################## using TFIDF ##########################################################################
+
+Ask another question or press 8 to exit:
+> What is the difference between AI and machine learning? 
+
+[[08:25 - 08:29]], The most important difference between deep learning and machine learning is its performance
+(Relevance score: 0.570)
+
+
+Ask another question or press 8 to exit:
+> wht is AI
+
+[[01:40 - 01:43]], Just for your understanding, what is AI?
+(Relevance score: 0.414)
+
+
+
+################################################## using chatGroq Model/ openAI ###########################################################
+Transcript loaded, please ask your question (press 8 for exit):
+>  How old is the concept of AI?
+
+[[01:40 - 01:43]], I can answer that! According to the context, the concept of AI has not been mentioned as having a specific age. The conversation has just started, and the definition of AI is being discussed.
+(Relevance score: 0.743)
+
+
+Ask another question or press 8 to exit:
+> how machine Learning evolve ?
+
+[[08:15 - 08:19]], According to the context, machine learning evolves to the next evolution.
+(Relevance score: 0.785)
+
+##########################################################################################
+
+from above we can say that LLM is much good for semantic search rather than other keyword search models
+
