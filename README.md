@@ -3,7 +3,7 @@
 This Python application performs semantic search on a transcript using different methods:
 - TF-IDF with cosine similarity
 - OpenAI embeddings
-- GROQ API with Mixtral LLM
+- GROQ API with llama LLM
 
 ## Installation
 
